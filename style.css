@@ -1,45 +1,65 @@
-th, td {
-  height: 50%;
-  width: 15%;
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
 }
-table {
-  border-collapse: collapse;
+ body{
+     background-color: #D5EBE8 ;
 }
-table, th, td , tr {
-  border: 1px solid #A0A0A0;
-    text-align: left;
-    padding: 10px;
-    margin: auto;
+ .card {
+     width: 20%;
+     text-align: center;
+     background: #FFFFFF;
+     margin: 10% auto;
 }
-.tomato {
-  background: tomato;
+ img{
+     width: 300px ;
+     height: 300px ;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
 }
-.Orange{
-  background: Orange ;
+ table, th, td {
+     border: 1px solid #FFFFFF;
+     border-collapse: collapse;
+     background-color: #FFFFFF;
 }
-.DodgerBlue{
-  background: DodgerBlue;
+ th, td {
+     height: 50%;
+     width: 15%;
 }
-.MediumSeaGreen{
-  background: MediumSeaGreen;
+ table {
+     border-collapse: collapse;
 }
-.Gray{
-  background: Gray;
+ table, th, td , tr {
+     border: 1px solid #FFFFFF;
+     text-align: left;
+     padding: 10px;
+     margin: auto;
 }
-.SlateBlue{
-  background: SlateBlue;
+ .box {
+     width: 340px;
+     box-shadow: 5px 8px 12px #B3CAC8;
+     background: #FFFFFF;
+     margin: 10% auto;
+     padding-bottom: 2px;
+     padding-top: 2px;
 }
-.Violet{
-  background: Violet;
+ .font {
+     font-family: 'Dancing Script', cursive;
+     padding-bottom: 10px;
 }
-.LightGray{
-  background: LightGray;
+ .color{
+     color : #000;
 }
-
-.second th, .second td {
-  height: 50px;
-  width: 360px;
+ h1{
+     border: 1px solid #EDEDED ;
+     padding: 10px ;
+     margin: 20px ;
 }
-td.a, th.a {
-     background-color: #F0F0F0;
+ .border {
+     border: 1px solid #EDEDED ;
+     padding: 10px ;
+     margin:20px ;
 }
+ 
