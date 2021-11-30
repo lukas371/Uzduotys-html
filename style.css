@@ -1,65 +1,63 @@
-* {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
+.a {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("paveiksleliai/unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
- body{
-     background-color: #D5EBE8 ;
+
+h1{
+  text-align: center;
 }
- .card {
-     width: 20%;
-     text-align: center;
-     background: #FFFFFF;
-     margin: 10% auto;
+p{
+  text-align: center;
+  padding: 20px;
+  padding-left: 13%;
+  padding-right: 13%;
 }
- img{
-     width: 300px ;
-     height: 300px ;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
 }
- table, th, td {
-     border: 1px solid #FFFFFF;
-     border-collapse: collapse;
-     background-color: #FFFFFF;
+
+/* Make the image responsive */
+.container img {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("paveiksleliai/unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
- th, td {
-     height: 50%;
-     width: 15%;
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: Transparent;
+  color: #db879e;
+  font-size: 35px;
+  padding: 15px 45px;
+  overflow: hidden;
+  cursor: pointer;
+  border-color: #db879e;;
 }
- table {
-     border-collapse: collapse;
+
+.container .btn:hover {
+  background-color: inherit;
 }
- table, th, td , tr {
-     border: 1px solid #FFFFFF;
-     text-align: left;
-     padding: 10px;
-     margin: auto;
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.row {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
- .box {
-     width: 340px;
-     box-shadow: 5px 8px 12px #B3CAC8;
-     background: #FFFFFF;
-     margin: 10% auto;
-     padding-bottom: 2px;
-     padding-top: 2px;
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+
 }
- .font {
-     font-family: 'Dancing Script', cursive;
-     padding-bottom: 10px;
-}
- .color{
-     color : #000;
-}
- h1{
-     border: 1px solid #EDEDED ;
-     padding: 10px ;
-     margin: 20px ;
-}
- .border {
-     border: 1px solid #EDEDED ;
-     padding: 10px ;
-     margin:20px ;
-}
- 
